@@ -16,6 +16,11 @@ elif BMI <= 30:
 elif BMI <= 35:
     print("You are severly over weight")
 
+
+  
+          
+
+
 elif BMI <= 40:
    print("You are obese")
 
@@ -23,3 +28,11 @@ else :
    print("You are severly obese")
 
 
+
+num = int(input("Enter Number to check"))
+if num>50:
+       print("The number is greater than 50")
+       if num%2 ==0 :
+        print("and it is Even too")
+else :
+   print("Number is less than 50")
