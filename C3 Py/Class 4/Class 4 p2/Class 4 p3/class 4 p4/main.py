@@ -1,11 +1,8 @@
-sumofN_no =sum(range(1,11))
-print({sumofN_no})
-
 num = int(input("Enter a Number"))
 if num > 1 :
-    for i in range(+1):
+    for i in range(2,int(num**0.5 + 1)):
 
-        if num % i==0:
+        if num % i == 0:
          print(f"{num} is not a prime no.")
          break
 
@@ -14,3 +11,8 @@ if num > 1 :
 
 else :
    print(f"{num} is  not a prime no.")
+
+
+
+
+    
