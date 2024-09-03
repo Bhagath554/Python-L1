@@ -2,7 +2,7 @@ my_dict = {}
 
 my_dict = {1:'Apple', 2: 'Orange'}
 
-my_dict = {'name :' 'John', 1:[1 , 2 ,3]}
+my_dict = {'name :' 'John', 1 : '[1 , 2 ,3]'}
 
 print(my_dict['name'])
 print(my_dict.get('age'))
