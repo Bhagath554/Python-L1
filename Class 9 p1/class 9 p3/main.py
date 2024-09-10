@@ -1,7 +1,7 @@
 class parrot:
     species = "Bird"
 
-    def __int__(self,name,age):
+    def __init__(self,name,age):
         self.name = name
         self.age = age
 
@@ -11,5 +11,5 @@ woo = parrot("woo",15)
 print("blu is a{}".format(blu.species) )
 print("woo is a{}".format(woo.species) )
 
-print("{}is a{} years old".format(blu.name))
-print("{}is a{} years old".format(woo.name))
+print("{}is a{} years old".format(blu.name,blu.age))
+print("{}is a{} years old".format(woo.name,woo.age))
