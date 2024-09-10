@@ -1,5 +1,9 @@
 
+class Student:
+    grade = 10
+    print("Hello I am Studying in class",grade)
 
+    ob = Student()
 class student:
   grade= 10
   name= "Bhagath" 
