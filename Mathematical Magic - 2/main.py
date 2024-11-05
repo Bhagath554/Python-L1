@@ -1,6 +1,6 @@
 from math import sqrt 
 number = int(input("Enter a Number:"))
-print("/n")
+print("\n")
 
 if number >1 :
 
