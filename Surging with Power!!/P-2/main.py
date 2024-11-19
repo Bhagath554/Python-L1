@@ -7,7 +7,7 @@ def four(num):
             num >>= 1
             count += 1
 
-        if (count % 2 == 0):
+        if (count % 4 == 0):
              return True
         else :
             return False
